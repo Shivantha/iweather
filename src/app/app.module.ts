@@ -16,11 +16,14 @@ import { IonicStorageModule } from '@ionic/storage';
 import { HomePage } from './home/home.page';
 
 
-
+import { Pro } from '@ionic/pro';
 
 
 // import { MapOperator } from '../../node_modules/rxjs/internal/operators/map';
 
+Pro.init('e890d752', {
+  appVersion: '0.0.1'
+})
 
 
 @NgModule({
