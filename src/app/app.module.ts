@@ -35,7 +35,7 @@ import { HomePage } from './home/home.page';
     StatusBar,
     SplashScreen,
     WeatherService,
-    HomePage
+    HomePage,
     
 
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
